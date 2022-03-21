@@ -1,34 +1,37 @@
-*
-{
-    margin: 0;
-    padding: 0;
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i.ibb.co/8rnv93B/julian-bauer-blind-warden-small.jpg');
+  background-position: 50% 50%;
 }
-.heading-top
-{
-    width: 100%;
-    height:80px;
-    text-align: center;
-    padding-top: 50px;
-    font-family: 'Inspiration', cursive;
-    font-size: 25px;
+
+.u-section-1 .u-sheet-1 {
+  min-height: 800px;
 }
-#heading
-{
-    text-align: center;
-    text-decoration: none;
-    padding-top: 30px;
-    font-family: 'Jost', sans-serif;
-    color:#eae7dc;
-    text-align: center;
-    padding: 300px;
-    font-size: 40px;
+
+.u-section-1 .u-text-1 {
+  font-family: Darker Grotesque;
+  margin: 312px auto 60px;
 }
-.header
-{
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-    background-image: url("https://i.ibb.co/L5J2XZW/Header-background-image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 239px;
+  }
 }
